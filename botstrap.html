@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+    <title>Ejercicio Bootstrap</title>
+    <style>
+        #otra{
+            background-color: rgb(27, 191, 251);
+            height:340px;
+        }
+
+        #ingredientes{
+            background-color: rgb(118, 173, 255);
+            text-align: left;
+            height:340px;
+        }
+
+        #rojo{
+            color:rgb(173, 7, 7);
+            background-color: rgb(220, 114, 114);
+        }
+
+        @media (max-width:768px){
+            #tomate{
+                display:none;
+            }
+        }
+
+
+
+        
+
+    </style>
+</head>
+<body>
+    
+    <div class="container text-center">
+        <div class="row align-items-center" >
+            <div class="col-se-12 col-md-6" id="ingredientes">
+                <h1>Hablemos de Ingredientes</h1>
+            
+            <div class="row">
+                <div class="col" id="lista1">
+            <ul class="list-group">
+                <li class="list-group-item " >Patatas</li>
+                <li class="list-group-item">Calabazas</li>
+                <li class="list-group-item" id="tomate">Tomates</li>
+                <li class="list-group-item">Cebollas</li>
+                <li class="list-group-item disabled" aria-disabled="true">Judías</li>
+                
+              </ul>
+            </div>
+              <div class="col" id="lista2">
+              <ul class="list-group" >
+                <li class="list-group-item">Harina</li>
+                <li class="list-group-item">Azúcar</li>
+                <li class="list-group-item">Leche</li>
+                <li class="list-group-item" id="rojo">Café</li>
+              </ul>
+            </div>
+        </div>
+        </div>
+           
+            <div class="col-se-12 col-md-6" id="otra"><h1>Hablemos de otra cosa</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque hic in, repudiandae quasi facilis modi nobis voluptate eos sapiente fuga voluptates possimus. Repellat esse deleniti reprehenderit tenetur, eos, ipsa consequuntur nisi labore rem saepe neque nam sapiente. Unde, voluptatem odio.</p>
+        </div>
+    
+    </div>
+    </div>
+    
+</body>
+</html>
